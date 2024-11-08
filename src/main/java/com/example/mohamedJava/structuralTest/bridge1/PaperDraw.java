@@ -1,4 +1,4 @@
-package com.example.mohamedJava.structuralTest.adapter;
+package com.example.mohamedJava.structuralTest.bridge1;
 
 public class PaperDraw implements DrawApi{
     @Override

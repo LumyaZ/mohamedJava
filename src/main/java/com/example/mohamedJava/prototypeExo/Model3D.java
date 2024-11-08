@@ -23,10 +23,9 @@ abstract class Model3D {
         this.texture = texture;
     }
 
-	@Override
-	public String toString() {
-		return "Model3D [size=" + this.size + ", color=" + color + ", texture=" + texture + "]";
-	}
+	public void displayProperties() {
+        System.out.println("Size: " + size + ", Color: " + color + ", Texture: " + texture);
+    }
     
     public abstract Model3D clone();
 
